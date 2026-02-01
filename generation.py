@@ -1,4 +1,11 @@
-import time
+import secrets
+
+uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+lowercase = "abcdefghijklmnopqrstuvwxyz"
+digits = "0123456789"
+symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+all_chars = uppercase + lowercase + digits + symbols
+
 
 while True:
     length = int(input("the Length of your password(not less than 8): "))
@@ -8,20 +15,8 @@ while True:
     else:
         print("You entered a password that was too small.")
 
-uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-lowercase = "abcdefghijklmnopqrstuvwxyz"
-digits = "0123456789"
-symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
-all_chars = uppercase + lowercase + digits + symbols
-
-def get_random(limit):
-    return abs(hash(time.time_ns())) % limit
-
-password_length = length
 password = ""
+for i in range(length):
+    password += secrets.choice(all_chars)
+print("Your password:", password)
 
-for i in range(password_length):
-    index = get_random(len(all_chars))
-    password += all_chars[index]
-
-print("Ваш пароль:", password)
