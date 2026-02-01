@@ -40,7 +40,7 @@ __________________
 ________
 ## 🚀 Installation & Run  
 Clone the repository:    
-git clone https://github.com/ZeroBuglab/simple_password-generator/blob/main/code
+git clone https://github.com/ZeroBuglab/simple_password-generator/blob/main/code     
 cd simple-password-generator   
 python main.py  
 _________________
