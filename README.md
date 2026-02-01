@@ -1,4 +1,4 @@
-# Hello   
+# Hello! 👋  
 this simple Password Generator (Python)  
 
 A simple Python password generator that creates random passwords based on user-selected length.  
