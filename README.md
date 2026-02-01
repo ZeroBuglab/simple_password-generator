@@ -29,7 +29,7 @@ _______________
 ## 💬 Example Usage     
 the Length of your password(not less than 8): 9  
 The length is suitable   
-Ваш пароль: iO)e%Cg!]    
+Your password : iO)e%Cg!]    
 __________________
 
 ### 🛠 Tech Stack  
