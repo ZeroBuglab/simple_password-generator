@@ -1,26 +1,29 @@
-# Hello  
-this a simple Python password generator that creates random passwords based on user-selected length.
+# Hello   
+this simple Password Generator (Python)  
 
----
+A simple Python password generator that creates random passwords based on user-selected length.  
+This project does not use external libraries and focuses on learning core Python logic.  
 
-## ✨ Features
-- User chooses password length  
-- Generates passwords using letters, digits, and symbols  
-- Simple and fast  
-- Beginner-friendly  
+________________________
 
----
+# ✨ Features  
+* User chooses password length  
+* Generates passwords using:  
+    * Uppercase letters  
+    * Lowercase letters  
+    * Digits  
+    * Symbols  
+* Simple and beginner-friendly  
+* No external dependencies  
 
-## 🛠 Tech Stack
+____________________
 
-- Python  
-- Loops  
-- Conditions  
-- Basic random logic  
+##  🧠 How It Works  
+1.	The user enters the desired password length
+2.	The program validates the input
+3.	A loop generates random characters
+4.	Characters are combined into a password
+5.	The final password is printed
 
----
-
-## 🚀 How to Run
-
-```bash
-python main.py
+_______________
+## 💬 Example Usage
